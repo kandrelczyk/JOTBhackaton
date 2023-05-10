@@ -33,7 +33,7 @@ The correlation chart can be found in file chart1.png.
 
 # Practical application 
 
-Let's use our model in a practical situation. We can check weather forcast for the next day in London. We obtain following values:
+Let's use our model in a practical situation. We can check weather forecast for the next day in London which has similar amounts of daylight as location from dataset. We obtain following values:
 
 ait temperature: 15
 pressure: 1015
