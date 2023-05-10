@@ -52,3 +52,7 @@ and obtain following predicted power generation value:
 
 1482.6726155598744
 
+# Implementation 
+
+We provide a simple proof of concept python script. It uses weather forecast API to get prediction for next day and queries the model to get the power generation prediction.
+
