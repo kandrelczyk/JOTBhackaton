@@ -30,3 +30,21 @@ We removed radiation from the data set and created another model.
 
 Even after removing radiation from the dataset the predictions were correlated with the value in validation data.
 The correlation chart can be found in file chart1.png.
+
+# Practical application 
+
+Let's use our model in a practical situation. We can check weather forcast for the next day in London. We obtain following values:
+
+ait temperature: 15
+pressure: 1015
+humidity: 65
+wind speed: 3
+
+We introduce this values to our model:
+
+SELECT PREDICT(noRadiation use testNoRadiation with (11, 5, 12, 3, 60, 1015.0, 15, 65)) as prediction 
+
+and obtain following predicted power generation value:
+
+1482.6726155598744
+
