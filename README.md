@@ -26,19 +26,23 @@ We trained first model using all columns form the data set.
 After testing it we noticed that the radiation value had the heaviest influence on the predicted values. 
 We removed radiation from the data set and created another model.
 
-## Witout radiation
+## Without radiation
 
 Even after removing radiation from the dataset the predictions were correlated with the value in validation data.
-The correlation chart can be found in file chart1.png.
+![chart](https://github.com/kandrelczyk/JOTBhackaton/blob/main/chart1.png)
 
 # Practical application 
 
 Let's use our model in a practical situation. We can check weather forecast for the next day in London which has similar amounts of daylight as location from dataset. We obtain following values:
 
 ait temperature: 15
+
 pressure: 1015
+
 humidity: 65
+
 wind speed: 3
+
 
 We introduce this values to our model:
 
