@@ -36,9 +36,13 @@ Even after removing radiation from the dataset the predictions were correlated w
 Let's use our model in a practical situation. We can check weather forcast for the next day in London. We obtain following values:
 
 ait temperature: 15
+
 pressure: 1015
+
 humidity: 65
+
 wind speed: 3
+
 
 We introduce this values to our model:
 
